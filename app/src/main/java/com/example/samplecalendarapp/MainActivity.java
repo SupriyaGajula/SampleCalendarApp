@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 + String.valueOf(startTime.getTimeInMillis()));
 
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-// The calendar app will be open with appropriate data display
+// The calendar app will be open with appropriate date displayed
         startActivity(intent);
     }
     public void insert() {
